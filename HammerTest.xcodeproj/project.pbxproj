@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		921F140029DA2ACE007B9778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F13FF29DA2ACE007B9778 /* AppDelegate.swift */; };
 		921F140229DA2ACE007B9778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F140129DA2ACE007B9778 /* SceneDelegate.swift */; };
-		921F140429DA2ACE007B9778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F140329DA2ACE007B9778 /* ViewController.swift */; };
-		921F140729DA2ACE007B9778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921F140529DA2ACE007B9778 /* Main.storyboard */; };
+		921F140429DA2ACE007B9778 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F140329DA2ACE007B9778 /* MainViewController.swift */; };
 		921F140929DA2ACF007B9778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921F140829DA2ACF007B9778 /* Assets.xcassets */; };
 		921F140C29DA2ACF007B9778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921F140A29DA2ACF007B9778 /* LaunchScreen.storyboard */; };
+		92374DDD616F8B066C778991 /* Pods_HammerTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8865063E467E7AC48A27C51E /* Pods_HammerTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4803D4D5E32B94A33D4AD44B /* Pods-HammerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HammerTest.release.xcconfig"; path = "Target Support Files/Pods-HammerTest/Pods-HammerTest.release.xcconfig"; sourceTree = "<group>"; };
+		8865063E467E7AC48A27C51E /* Pods_HammerTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HammerTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921F13FC29DA2ACE007B9778 /* HammerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HammerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		921F13FF29DA2ACE007B9778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		921F140129DA2ACE007B9778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		921F140329DA2ACE007B9778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		921F140629DA2ACE007B9778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		921F140329DA2ACE007B9778 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		921F140829DA2ACF007B9778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		921F140B29DA2ACF007B9778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		921F140D29DA2ACF007B9778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE480FDD37615B0ABE3F8453 /* Pods-HammerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HammerTest.debug.xcconfig"; path = "Target Support Files/Pods-HammerTest/Pods-HammerTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92374DDD616F8B066C778991 /* Pods_HammerTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7265D8C12D3F51C1728AB730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8865063E467E7AC48A27C51E /* Pods_HammerTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		921F13F329DA2ACE007B9778 = {
 			isa = PBXGroup;
 			children = (
 				921F13FE29DA2ACE007B9778 /* HammerTest */,
 				921F13FD29DA2ACE007B9778 /* Products */,
+				9F0C8A00DD61F199AFC2C7DC /* Pods */,
+				7265D8C12D3F51C1728AB730 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +71,22 @@
 			children = (
 				921F13FF29DA2ACE007B9778 /* AppDelegate.swift */,
 				921F140129DA2ACE007B9778 /* SceneDelegate.swift */,
-				921F140329DA2ACE007B9778 /* ViewController.swift */,
-				921F140529DA2ACE007B9778 /* Main.storyboard */,
+				921F140329DA2ACE007B9778 /* MainViewController.swift */,
 				921F140829DA2ACF007B9778 /* Assets.xcassets */,
 				921F140A29DA2ACF007B9778 /* LaunchScreen.storyboard */,
 				921F140D29DA2ACF007B9778 /* Info.plist */,
 			);
 			path = HammerTest;
+			sourceTree = "<group>";
+		};
+		9F0C8A00DD61F199AFC2C7DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE480FDD37615B0ABE3F8453 /* Pods-HammerTest.debug.xcconfig */,
+				4803D4D5E32B94A33D4AD44B /* Pods-HammerTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 921F141029DA2ACF007B9778 /* Build configuration list for PBXNativeTarget "HammerTest" */;
 			buildPhases = (
+				E03F79E8479439B1A053FA46 /* [CP] Check Pods Manifest.lock */,
 				921F13F829DA2ACE007B9778 /* Sources */,
 				921F13F929DA2ACE007B9778 /* Frameworks */,
 				921F13FA29DA2ACE007B9778 /* Resources */,
+				0DCD7AD3ECB3DFBDABE6653F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +151,59 @@
 			files = (
 				921F140C29DA2ACF007B9778 /* LaunchScreen.storyboard in Resources */,
 				921F140929DA2ACF007B9778 /* Assets.xcassets in Resources */,
-				921F140729DA2ACE007B9778 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DCD7AD3ECB3DFBDABE6653F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HammerTest/Pods-HammerTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HammerTest/Pods-HammerTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HammerTest/Pods-HammerTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03F79E8479439B1A053FA46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HammerTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		921F13F829DA2ACE007B9778 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				921F140429DA2ACE007B9778 /* ViewController.swift in Sources */,
+				921F140429DA2ACE007B9778 /* MainViewController.swift in Sources */,
 				921F140029DA2ACE007B9778 /* AppDelegate.swift in Sources */,
 				921F140229DA2ACE007B9778 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +212,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		921F140529DA2ACE007B9778 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				921F140629DA2ACE007B9778 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		921F140A29DA2ACF007B9778 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +339,7 @@
 		};
 		921F141129DA2ACF007B9778 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE480FDD37615B0ABE3F8453 /* Pods-HammerTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,10 +349,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HammerTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +367,7 @@
 		};
 		921F141229DA2ACF007B9778 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4803D4D5E32B94A33D4AD44B /* Pods-HammerTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,10 +377,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HammerTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
