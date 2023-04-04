@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "pizza-banner-ads-design-template-f9e4ec2649ab986c5119ec09468195f1_screen.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "pizza-banner-ads-design-template-f9e4ec2649ab986c5119ec09468195f1_screen 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "pizza-banner-ads-design-template-f9e4ec2649ab986c5119ec09468195f1_screen 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

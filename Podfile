@@ -8,8 +8,8 @@ target 'HammerTest' do
   # Pods for HammerTest
 
 pod 'SkeletonView'
-  pod 'Kingfisher', '~> 7.0'
+  pod 'Kingfisher'
   pod 'Alamofire'
-  pod 'SnapKit', '~> 5.6.0'
+  pod 'SnapKit'
 
 end
